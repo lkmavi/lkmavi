@@ -39,22 +39,28 @@ Some things I've built or owned along the way:
 
 | | |
 |---|---|
-| **[slogx](https://github.com/salivare-io/slogx)** | wrapper around stdlib `slog` for structured logging convenience |
+| **[slogx](https://github.com/salivare-io/slogx)** | runtime-configurable wrapper around stdlib `slog` ([salivare-io](https://github.com/salivare-io)) |
 | **[gopriv](https://github.com/salivare-io/gopriv)** | CLI tool for working with private Go repositories |
 | **[sso-auth-server](https://github.com/salivare-io/sso-auth-server/tree/dev)** | SSO with Google / Yandex providers (WIP) |
-| **[termizard](https://github.com/termizard/termizard/tree/dev)** | terminal with extensible rendering layer on top of standard tty |
+| **[geckty](https://github.com/geckty/geckty)** | GUI terminal on [gogpu](https://github.com/gogpu/gogpu) — kitty/Rio/Alacritty spirit, glass chrome, tabs & plugins (WIP) |
 
 ---
 
-## Open Source
+## GoGPU Ecosystem
 
-Contributions to [gogpu/gogpu](https://github.com/gogpu/gogpu) — Pure Go Graphics Framework:
+Contributor to the [GoGPU](https://github.com/gogpu) ecosystem — Pure Go GPU computing stack, zero CGO, cross-platform.
 
-[#206](https://github.com/gogpu/gogpu/issues/206) · [#213](https://github.com/gogpu/gogpu/issues/213) · [#223](https://github.com/gogpu/gogpu/issues/223) · [#242](https://github.com/gogpu/gogpu/issues/242) · [#264](https://github.com/gogpu/gogpu/issues/264)
+| Package | What I worked on |
+|---|---|
+| **[gogpu](https://github.com/gogpu/gogpu)** | windowing & menus (live resize, multi-window, native menus), strided damage uploads & GPU stats ([#484](https://github.com/gogpu/gogpu/issues/484)) |
+| **[wgpu](https://github.com/gogpu/wgpu)** | Metal live-resize IOSurface pool fixes, GLES stability |
+| **[gg](https://github.com/gogpu/gg)** | raster & stencil rendering fixes |
+| **[gpucontext](https://github.com/gogpu/gpucontext)** | strided `TextureRegionUpdater.UpdateRegion` |
+
+Issues & features: [#206](https://github.com/gogpu/gogpu/issues/206) · [#213](https://github.com/gogpu/gogpu/issues/213) · [#223](https://github.com/gogpu/gogpu/issues/223) · [#242](https://github.com/gogpu/gogpu/issues/242) · [#264](https://github.com/gogpu/gogpu/issues/264) · [#484](https://github.com/gogpu/gogpu/issues/484)
 
 ---
 
 ## Contacts
 
 [![Telegram](https://img.shields.io/badge/@zvladimir__769-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/zvladimir_769)
-
